@@ -1,0 +1,22 @@
+account kim@kimkruse.xyz
+host mail.kimkruse.xyz
+port 587
+from kim@kimkruse.xyz
+user kim
+passwordeval "pass kim@kimkruse.xyz"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/kim/.config/msmtp/msmtp.log
+
+account mail4kruse@gmail.com
+host smtp.gmail.com
+port 587
+from mail4kruse@gmail.com
+user mail4kruse@gmail.com
+passwordeval "pass mail4kruse@gmail.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/kim/.config/msmtp/msmtp.log
+

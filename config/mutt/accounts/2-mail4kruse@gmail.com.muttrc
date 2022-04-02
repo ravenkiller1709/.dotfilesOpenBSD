@@ -1,0 +1,55 @@
+# vim: filetype=neomuttrc
+# muttrc file for account mail4kruse@gmail.com
+set realname = "mail4kruse"
+set from = "mail4kruse@gmail.com"
+set sendmail = "msmtp -a mail4kruse@gmail.com"
+alias me mail4kruse <mail4kruse@gmail.com>
+set folder = "/home/kim/Mail/Gmail"
+set header_cache = /home/kim/.cache/mutt-wizard/mail4kruse@gmail.com/headers
+set message_cachedir = /home/kim/.cache/mutt-wizard/mail4kruse@gmail.com/bodies
+set mbox_type = Maildir
+
+
+bind index,pager gg noop
+bind index,pager g noop
+bind index,pager M noop
+bind index,pager C noop
+bind index gg first-entry
+unmailboxes *
+unalternates *
+unset signature
+unmacro index o
+macro index o "<shell-escape>mw -y mail4kruse@gmail.com<enter>" "run mbsync to sync mail4kruse@gmail.com"
+
+mailboxes "=.Draft" "=Draft" "=Gmail/[Gmail]/Drafts" "=INBOX" "=Junk" "=Mailspring/Snoozed" "=Trash" "=[Gmail]/'Alle mails'" "=[Gmail]/Alle mails" "=[Gmail]/Drafts" "=[Gmail]/Kladder" "=[Gmail]/Papirkurv" "=[Gmail]/Sendt" "=[Gmail]/Sendte mails" "=[Gmail]/Sent" "=[Gmail]/Sent Mail" "=[Gmail]/Trash" "=mail4kikr@me.com"
+set postponed = "+Gmail/[Gmail]/Drafts"
+macro index,pager gd "<change-folder>=Gmail/[Gmail]/Drafts<enter>" "go to drafts"
+macro index,pager Md ";<save-message>=Gmail/[Gmail]/Drafts<enter>" "move mail to drafts"
+macro index,pager Cd ";<copy-message>=Gmail/[Gmail]/Drafts<enter>" "copy mail to drafts"
+macro index,pager gi "<change-folder>=INBOX<enter>" "go to inbox"
+macro index,pager Mi ";<save-message>=INBOX<enter>" "move mail to inbox"
+macro index,pager Ci ";<copy-message>=INBOX<enter>" "copy mail to inbox"
+set spoolfile = "+INBOX"
+macro index,pager gj "<change-folder>=Junk<enter>" "go to junk"
+macro index,pager Mj ";<save-message>=Junk<enter>" "move mail to junk"
+macro index,pager Cj ";<copy-message>=Junk<enter>" "copy mail to junk"
+macro index,pager gt "<change-folder>=Trash<enter>" "go to trash"
+macro index,pager Mt ";<save-message>=Trash<enter>" "move mail to trash"
+macro index,pager Ct ";<copy-message>=Trash<enter>" "copy mail to trash"
+set trash = "+Trash"
+set postponed = "+[Gmail]/Drafts"
+macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "go to drafts"
+macro index,pager Md ";<save-message>=[Gmail]/Drafts<enter>" "move mail to drafts"
+macro index,pager Cd ";<copy-message>=[Gmail]/Drafts<enter>" "copy mail to drafts"
+set record = "+[Gmail]/Sent"
+macro index,pager gs "<change-folder>=[Gmail]/Sent<enter>" "go to sent"
+macro index,pager Ms ";<save-message>=[Gmail]/Sent<enter>" "move mail to sent"
+macro index,pager Cs ";<copy-message>=[Gmail]/Sent<enter>" "copy mail to sent"
+set record = "+[Gmail]/Sent"
+macro index,pager gs "<change-folder>=[Gmail]/Sent<enter>" "go to sent"
+macro index,pager Ms ";<save-message>=[Gmail]/Sent<enter>" "move mail to sent"
+macro index,pager Cs ";<copy-message>=[Gmail]/Sent<enter>" "copy mail to sent"
+macro index,pager gt "<change-folder>=[Gmail]/Trash<enter>" "go to trash"
+macro index,pager Mt ";<save-message>=[Gmail]/Trash<enter>" "move mail to trash"
+macro index,pager Ct ";<copy-message>=[Gmail]/Trash<enter>" "copy mail to trash"
+set trash = "+[Gmail]/Trash"

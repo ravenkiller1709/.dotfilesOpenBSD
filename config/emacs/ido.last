@@ -1,0 +1,85 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/kim/" . ".screenlayout/")
+ ("/" . "home/")
+ ("/doas::/etc/X11/" . "xenodm/")
+ ("/doas::/etc/" . "X11/")
+ ("/doas::/" . "etc/")
+ ("/home/" . "kim/")
+ ("/home/kim/.config/emacs/" . "exwm/")
+ ("/home/kim/.config/" . "emacs/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/kim/.dotfileslinux/config/emacs/"
+ "/home/kim/.config/emacs/"
+ "/home/kim/.config/emacs/exwm/"
+ "/home/kim/"
+ "/doas::/root/"
+ "/home/kim/.dotfileslinux/config/emacs/exwm/"
+ "/home/kim/.screenlayout/"
+ "/doas::/etc/X11/xenodm/"
+ "/home/kim/Dokumenter/"
+ "/home/kim/Dokumenter/ebooks/"
+ "/home/kim/.dotfileslinux/"
+ "/home/kim/.ssh/"
+ "/home/kim/.gnupg/"
+ "/home/kim/.config/alacritty/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "desktop.el"
+ "start-exwm.sh"
+ ".profile"
+ "desktop.el-bak"
+ "current.sh"
+ ".xsession"
+ "Xsetup_0"
+ "test.org"
+ "Anonymous-Diary-of-an-Oxygen-Thief.pdf"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/kim/.dotfileslinux/config/emacs/" (25159 63271 230279 810000) "desktop.el-bak" "auto-save-list/" "network-security.data" "ido.last~" "init.el" "tramp" "ido.last" "exwm/" "history" "transient/" "desktop.el" "elpa/" ".mbsyncrc~" ".mbsyncrc" ".last-package-update-day" ".authinfo" "../" "./")
+
+ ("/home/kim/.config/emacs/" (25159 62876 914407 568000) "desktop.el-bak" "auto-save-list/" "network-security.data" "ido.last~" "init.el" "tramp" "ido.last" "exwm/" "history" "transient/" "desktop.el" "elpa/" ".mbsyncrc~" ".mbsyncrc" ".last-package-update-day" ".authinfo" "../" "./")
+
+ ("/home/kim/" (25159 62893 124246 431000) ".profile~" ".fehbg" ".baggrunde/" "Dokumenter/" "Musik/" "emacs-27.2.core" ".xsession~" ".authinfo.gpg" ".screenlayout/" "Mail/" ".mbsyncrc" ".viminfo" ".gnupg/" ".cwmrc.swp" ".Xresources" ".xsession" ".cwmrc" ".pki/" ".dbus/" "Downloads/" ".sndio/" ".cache/" ".mozilla/" ".config/" ".dotfilesOpenBSD/" ".Xauthority" ".local/" ".dotfileslinux/" ".xsession-errors" ".profile" ".mailrc" ".login" ".cvsrc" ".cshrc" ".Xdefaults" ".ssh/" "../" "./")
+
+ ("/home/kim/.gnupg/" (25159 61569 118153 292000) "openpgp-revocs.d/" "trustdb.gpg" "S.gpg-agent.ssh" "S.gpg-agent.browser" "S.gpg-agent.extra" "pubring.kbx~" "S.gpg-agent" "random_seed" "pubring.kbx" "private-keys-v1.d/" "../" "./")
+
+ ("/home/kim/Dokumenter/ebooks/" (25159 24866 353496 217000) "Welcome to The Universe - Neil deGrasse Tyson.epub" "Waking Gods Book 2 of the Them - Sylvain Neuvel.epub" "Under the Dome_ A Novel - Stephen King.epub" "Things_We_Know_by_Heart_-_Jessi_Kirby.epub" "They Both Die at the End - Adam Silvera.epub" "The_Rest_of_Us_Just_Live_Here_-_Patrick_Ness.epub" "The Sun Is Also a Star - Nicola Yoon.epub" "The Last Time We Say Goodbye - Cynthia Hand.epub" "The Geography of You and Me - Jennifer E. Smith.epub" "Sleeping Giants - Sylvain Neuvel.epub" "Rupi Kaur/" "Rothenberg, Jess/" "Rick Riordan/" "Ransom Riggs/" "Rainbow Rowell/" "README.md" "Patrick Ness - A Monster Calls (v5.0).epub" "Origin.epub" "Origin by Dan Brown.epub" "Norse Mythology - Neil Gaiman.epub" "Neil Gaiman/" "My Heart and Other Black Holes - Jasmine Warga.epub" "Love Letters to the Dead - Ava Dellaira.epub" "Lily+Rambrisc+-+The+Poems+of+Sylvia+Plath+1960-61.epub" "Levithan, David - Every Day.epub" "Laura_Marx_Fitzgerald_-_The_Gallery.epub" "Lang Leav/" "John Green/" "Jocelyn_Davies_-_The_Odds_of_Lightning.epub" "Jenny Han/" "Jennifer Niven/" "I-Wrote-This-For-You.epub" "I'll Give You the Sun - Jandy Nelson.epub" "I'll Be There_Chapter 1.pdf" "I Wrote This For You.epub" "Haruki Murakami/" "Girl_Against_the_Universe_-_Paula_Stokes.epub" "Gayle Forman - Where She Went(1).epub" "Gayle Forman - If I Stay.epub" "Fantastic Beasts and Where to F - J. K. Rowling.epub" "Everything, Everything - Nicola Yoon.epub" "Every Last Word - Tamara Ireland Stone.epub" "Counting by 7s by Holly Goldberg Sloan.epub" "Book_01___The_Bad_Beginning__Revised_.epub" "Beginning of Everything, The - Robyn Schneider.epub" "Astrophysics for People in a Hurry - Neil deGrasse Tyson.epub" "Aristotle and Dante Discover the Secrets of the Universe - Benjamin Alire Sáenz.epub" "Antoine_de_Saint_-_The_Little_Prince.epub" "Anonymous-Diary-of-an-Oxygen-Thief.pdf" "Amy Zhang/" "All_in_Pieces_-_Suzanne_Young.epub" "About Time Adam Frank.epub" "A_Series_of_Unfortunate_Events_1__The_Bad_Beginning.epub" "2004 - After Dark.epub" ".git/" "../" "./")
+
+ ("/home/kim/Dokumenter/" (25159 28799 350792 536000) "test.org~" "test.org" "literature-epub/" "keysEmacs" "ebooks/" "Ebooks_Collection/" "Brev fra Collectia Finansservice #25661203#.pdf" "../" "./")
+
+ ("/home/kim/.dotfileslinux/config/emacs/exwm/" (25159 61498 688908 938000) "start-exwm.sh~" "start-exwm.sh" "desktop.el" "../" "./")
+
+ ("/home/kim/.config/emacs/exwm/" (25159 61498 688908 938000) "start-exwm.sh~" "start-exwm.sh" "desktop.el" "../" "./")
+
+ ("/doas::/root/" (ftp . 458022.5232630147) "./" "../" ".ssh/" ".Xdefaults" ".cshrc" ".cvsrc" ".login" ".profile" ".forward" ".viminfo" ".tramp_history" ".profile~")
+
+ ("/doas::/" (ftp . 458022.522516876) "./" "../" "home/" "tmp/" "usr/" "var/" "bsd" "bsd.rd" "altroot/" "bin/" "dev/" "etc/" "mnt/" "root/" "sbin/" ".cshrc" ".profile" "sys" "bsd.sp" "bsd.booted")
+
+ ("/home/" (25158 36158 0 0) "lost+found/" "_sysupgrade/" "kim/" "../" "./")
+
+ ("/home/kim/.screenlayout/" (25157 40009 382069 264000) "current.sh" "../" "./")
+
+ ("/home/kim/.config/" (25157 44995 88778 994000) "pavucontrol.ini" "pulse/" "dconf/" "chromium/" "user-dirs.dirs" "emacs/" "fontconfig/" "gtk-3.0/" "../" "./")
+
+ ("/home/kim/.ssh/" (25157 31777 790047 737000) "known_hosts.old" "known_hosts" "authorized_keys" "../" "./")
+
+ ("/home/kim/.dotfileslinux/" (25157 28291 530107 593000) "src/" "freebsdlinks" "fonts/" "dots/" "config/" "colorscript" "bin/" "base-uefi.sh" "base-mbr.sh" "README.md" ".xprofile" ".xmonad/" ".xmobarrc" ".scripts/" ".gitignore" ".baggrunde/" ".Xresources" ".git/" "../" "./")
+
+ ("/home/kim/.dotfileslinux/config/" (25157 28265 280270 419000) "zsh/" "ranger/" "polybar/" "nvim/" "newsboat/" "mpd/" "i3/" "fish/" "emacs/" "dunst/" "calibre/" "alacritty/" "../" "./")
+
+ ("/home/kim/.config/alacritty/" (25133 3191 533517 203000) "alacritty.yml" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
